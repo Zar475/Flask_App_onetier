@@ -6,7 +6,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 #copy the reuirement.txt file inside the container and isntall the dependencies
-COPY requirement.txt .
+COPY requirements.txt .
 
 
 #install the required python packages
