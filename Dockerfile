@@ -17,7 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 #expose the port 5000 as required. app will run on this port
-EXPOSE 5000
+EXPOSE 5007
 
 
 #command line, flask app will run as the container will up
